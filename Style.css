@@ -18,7 +18,7 @@
 
 .light {
     --text-color: black;
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-mobile-light2.png);
     --stroke-color: black;
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(243, 17, 17, 0.1);
@@ -191,4 +191,14 @@ footer {
     text-align: center;
     padding: 18px;
     font-size: 16px;
+}
+
+@media (min-width:700px) {
+
+    :root {--bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {--bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+
 }
